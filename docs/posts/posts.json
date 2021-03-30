@@ -2,19 +2,19 @@
   {
     "path": "posts/welcome/",
     "title": "Welcome to Ian McDonald",
-    "description": "Welcome to our new blog, Ian McDonald. We hope you enjoy \nreading what we have to say!",
+    "description": "Ian McDonald posts and professional material.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Ian McDonald",
+        "url": "http://www.ianrmcdonald.com"
       }
     ],
     "date": "2021-03-29",
     "categories": [],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-03-29T09:41:50-07:00",
-    "input_file": {}
+    "last_modified": "2021-03-29T20:25:11-07:00",
+    "input_file": "welcome.utf8.md"
   },
   {
     "path": "posts/2021-03-29-new-york-and-house-apportionment-in-2020/",
