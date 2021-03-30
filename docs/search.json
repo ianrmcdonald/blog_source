@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this blog",
+      "description": "Research and writing from Ian McDonald",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-03-29T19:48:21-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Ian McDonald",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-03-29T19:48:22-07:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

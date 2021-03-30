@@ -1,0 +1,13 @@
+https://rstudio.github.io/distill/blog.html
+
+To create a new post:
+
+library(distill)
+create_post("[TITLE]")
+
+rename_post_dir("_posts/2021-03-29-xxxxxx")
+
+Once you have authored one or more posts you’ll want to create a listing page. You can do this by adding a listing metadata entry to the page you to include the listing on. This is often the main page for the website (index.Rmd). For example:
+
+You can also create a subscribe feature with something like blogtrottr
+

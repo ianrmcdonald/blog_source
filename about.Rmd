@@ -1,0 +1,10 @@
+---
+title: "About this blog"
+description: |
+  Research and writing from Ian McDonald
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
