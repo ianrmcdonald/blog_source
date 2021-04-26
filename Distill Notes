@@ -11,3 +11,5 @@ Once you have authored one or more posts you’ll want to create a listing page.
 
 You can also create a subscribe feature with something like blogtrottr
 
+Importing a post:
+import_post("/Users/irm16/Dropbox/Open Elections/Oregon_all/Oregon-Precincts.html", overwrite = TRUE)

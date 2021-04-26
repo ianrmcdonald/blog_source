@@ -1,0 +1,29 @@
+---
+title: "New York and House Apportionment in 2020"
+description: |
+  Will New York give up a seat to Montana?
+author:
+  - name: Ian McDonald
+    url: http://www.ianrmcdonald.com
+date: 03-29-2021
+output:
+  distill::distill_article:
+    self_contained: false
+preview: images/rstudio.png
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+
+
+
+
+
+

@@ -7,7 +7,25 @@
     <description>Ian McDonald
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Rounding Errors: New York, Montana, and House Apportionment in 2020</title>
+      <dc:creator>Ian McDonald</dc:creator>
+      <link>https://www.ianrmcdonald.com/posts/2021-03-29-new-york-and-house-apportionment-in-2020</link>
+      <description>Does apportionment have a small state bias?</description>
+      <guid>https://www.ianrmcdonald.com/posts/2021-03-29-new-york-and-house-apportionment-in-2020</guid>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.ianrmcdonald.com/posts/2021-03-29-new-york-and-house-apportionment-in-2020/Apportion_2020_backup_files/figure-html5/unnamed-chunk-3-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Rounding Errors: New York, Montana, and House Apportionment in 2020</title>
+      <dc:creator>Ian McDonald</dc:creator>
+      <link>https://www.ianrmcdonald.com/posts/CopyOf2021-03-29-new-york-and-house-apportionment-in-2020</link>
+      <description>Does apportionment have a small state bias?</description>
+      <guid>https://www.ianrmcdonald.com/posts/CopyOf2021-03-29-new-york-and-house-apportionment-in-2020</guid>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.ianrmcdonald.com/posts/CopyOf2021-03-29-new-york-and-house-apportionment-in-2020/Apportion_2020_backup_files/figure-html5/unnamed-chunk-3-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Welcome to Ian McDonald</title>
       <dc:creator>Ian McDonald</dc:creator>
@@ -17,12 +35,13 @@
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>New York and House Apportionment in 2020</title>
+      <title>Oregon Precincts Map: 2020 Election</title>
       <dc:creator>Ian McDonald</dc:creator>
-      <link>https://www.ianrmcdonald.com/posts/2021-03-29-new-york-and-house-apportionment-in-2020</link>
-      <description>Does apportionment have a small state bias?</description>
-      <guid>https://www.ianrmcdonald.com/posts/2021-03-29-new-york-and-house-apportionment-in-2020</guid>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <link>https://www.ianrmcdonald.com/posts/2021-03-10-oregon-precincts-map-2020-election</link>
+      <description>A Leaflet map of Oregon precincts and the 2020 US presidential election</description>
+      <guid>https://www.ianrmcdonald.com/posts/2021-03-10-oregon-precincts-map-2020-election</guid>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://www.ianrmcdonald.com/posts/2021-03-10-oregon-precincts-map-2020-election/distill-preview.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
   </channel>
 </rss>
