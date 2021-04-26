@@ -148,7 +148,7 @@ $$
 \sqrt{3\times(4))} = \sqrt{12} \approx 3.464
 $$ 
 
-**Since the quota of 3.8 in the example is greater than 3.464, the Huntington-Hill method rounds *up* to 4 seats.**
+**Since the quota of 3.48 in the example is greater than 3.464, the Huntington-Hill method rounds *up* to 4 seats.**
 
 The Huntington-Hill method reduces the likelihood of the Alabama Paradox and the Population Paradox, even though the difference between the arithmetic vs. geometric means goes away as the number of seats increases and the geometric mean approaches $(n + .5)$  But the difference for states with smaller numbers of seats can be significant.
 
