@@ -1,7 +1,7 @@
 ---
 title: "New York and House Apportionment in 2020"
 description: |
-  A short description of the post.
+  Will New York give up a seat to Montana?
 author:
   - name: Ian McDonald
     url: http://www.ianrmcdonald.com

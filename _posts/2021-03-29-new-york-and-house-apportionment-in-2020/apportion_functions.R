@@ -1,9 +1,12 @@
+#functions for use in the apportioment scripts
+
+
 
 pull_maximum_priority <- function(df) {
   maxvalue <- df %>% 
     top_n(1, priority)
-  return(maxvalue)
 }
+
 
 apportion_update <- function(df) {
   maximum_value <- pull_maximum_priority(df) %>% 
@@ -39,7 +42,7 @@ webster_calc <- function(df, popsum = popsum_input, SEATS = 435) {
   
   df1 <- df %>%
     mutate(quota = population/popsum * SEATS,
-           geom_mean = sqrt(floor(quota)*(floor(quota)+1)),
+           #geom_mean = sqrt(floor(quota)*(floor(quota)+1)),
            residual = quota - floor(quota))
   
   df1 <- df1 %>%  
@@ -59,8 +62,7 @@ webster <- function(df, ADJUST = TRUE, TEST_CHANGE = 0) {
   df1 <- webster_calc(df, popsum = popsum_input, SEATS = 435) 
   seat_sum <- sum(df1$seat_counter)
   #print(str_c(year,":",seat_sum))
-  
-  
+
   if(ADJUST) {
     popsum_adj <- popsum_input
     oseats <<- df1

@@ -1,5 +1,8 @@
 library(tidyverse)
 
+
+#Generates hunhill based on basic algorithm
+
 source("apportion_functions.R")
 
 hist_pop <- "data/hist_pop_revised.csv"
