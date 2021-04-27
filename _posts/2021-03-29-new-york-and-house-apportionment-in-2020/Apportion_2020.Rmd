@@ -5,7 +5,7 @@ description: |
 author:
   - name: Ian McDonald
     url: http://www.ianrmcdonald.com
-date: 04-26-2021
+date: 04-27-2021
 output:
   distill::distill_article:
     self_contained: false
@@ -26,7 +26,7 @@ I would be surprised if this result is not litigated by New York, but arguably t
 
 - The thesis below (Montana won a seat at New York's expense) was essentially validated, except for the fact that New York missed its 27th seat rather than its 26th.  Montana's quota was 1.42 and they still won the 2nd seat.  New York's quota was 26.56 and only gets 26 seats. New York 2020 is 6th in the all time "screwed by Huntington Hill" list, instead of 2nd as I projected.  
 
-- Ohio is a second populous state that was denied its quota significantly (.51).  No other state was close to New York and Ohio in that regard.
+- Ohio is a second populous state that was denied its quota by a significant amount: it gets 15 seats with a quota of 15.51.  No other state was close to New York and Ohio in that regard.
 
 - More widely reported is Rhode Island's surprise success, surprisingly keeping its second seat for another ten years.  Their quota was 1.44, which makes them "Montana-esque".
 
@@ -122,7 +122,7 @@ knitr::kable(table_2, "pipe", digits = c(0, 0, 1, 2, 0, 0, 2, 0), format.args = 
 
 Simple enough, but the Webster method, and the Hamilton method that preceded it, produced some well known paradoxes and quirks that were more apparent when the number of seats routinely increased from census to census.
 
-In 1880, we saw that Alabama would lose seats as a direct result of hypothetically increasing the total number of House seats, a result famously known as the Alabama Paradox. A related problem known as the PopulationParadox was observed in 1902 when using the Hamilton formula (which is similar to the Webster formula), Virginia would have lost seats to Maine even though Virginia's population increased by a greater percentage. ^[Among the many explainers available, Vicki Powers published useful slide deck at <http://www.mathcs.emory.edu/~vicki/talks/Apportionment_Sept2012.pdf>.  Also see Nurmi H. (1999) *Paradoxes of Representation. In: Voting Paradoxes and How to Deal with Them.* Springer, Berlin, Heidelberg. <https://doi.org/10.1007/978-3-662-03782-9_9>]
+In 1880, we saw that Alabama would lose seats as a direct result of hypothetically increasing the total number of House seats, a result famously known as the Alabama Paradox. A related problem known as the Population Paradox was observed in 1902 when using the Hamilton formula (which is similar to the Webster formula), Virginia would have lost seats to Maine even though Virginia's population increased by a greater percentage. ^[Among the many explainers available, Vicki Powers published useful slide deck at <http://www.mathcs.emory.edu/~vicki/talks/Apportionment_Sept2012.pdf>.  Also see Nurmi H. (1999) *Paradoxes of Representation. In: Voting Paradoxes and How to Deal with Them.* Springer, Berlin, Heidelberg. <https://doi.org/10.1007/978-3-662-03782-9_9>]
 
 In order to prevent these scenarios, Congress replaced the Webster method in 1941 by a design by statistician Joseph Hill and adapted by Harvard mathematician Edward Huntington.
 
@@ -135,7 +135,7 @@ $$
 
 If the quota exceeds the geometric mean, we round up, and if not, we round down.
 
-Small states produce a much smaller residual for their geometric means, compared to large states.
+Small states have much smaller geometric means, compared to large states.
 
 ### Example: A state with a quota of 3.48
 
@@ -149,7 +149,7 @@ $$
 \text{For two consecutive whole numbers, the arithmetic mean of n and n+1 =} 
 (2n + 1)/2
 $$
-The fractional remainder of the arithmetic mean is always .5.]
+The fractional remainder of the arithmetic mean is always .5.
 
 **Since the quota of 3.48 falls below 3.5, the Webster method would round down to 3 seats.**  
 
@@ -167,7 +167,7 @@ $$
 
 **Since the quota of 3.48 in the example is greater than 3.464, the Huntington-Hill method rounds *up* to 4 seats.**
 
-The Huntington-Hill method reduces the likelihood of the Alabama Paradox and the Population Paradox, even though the difference between the arithmetic vs. geometric means goes away as the number of seats increases and the geometric mean approaches $(n + .5)$  But the difference for states with smaller numbers of seats can be significant.
+The Huntington-Hill method reduces the likelihood of the Alabama Paradox and the Population Paradox, even though the difference between the arithmetic vs. geometric means goes away as the number of seats increases and the geometric mean approaches $(n + .5)$  But the difference between arithmetic vs. geometric means for states with smaller numbers of seats can be significant.
 
 ```{r fig.cap="Rounding thresholds for Webster and Huntington-Hill methods.  Quotas with fractional remainders in the shaded region are rounded *down* for Webster and *up* for Huntington-Hill, the method currently in use. The red dot places our example of a 3.48 quota.  The extra shaded region on the left shows the small-state bias in  Huntington-Hill"}
 
@@ -316,7 +316,7 @@ Ironically, Montana contested the 1990 apportionment in court, arguing that the 
 
 Montana may yet become a significant beneficiary of Huntington-Hill in 2020.
 
-There is great uncertainty about the census and apportionment, and the December 2020 estimate might not have great consequences. Even in this example stakes involve a single seat shifting from New York to Montana. 
+There is great uncertainty about the census and apportionment, and the December 2020 estimate might be inconsequential.^[April 26: Some surprises but Montana was the record breaking beneficiary of Huntington Hill:  two seat with a 1.43 quota] Even in this example stakes involve a single seat shifting from New York to Montana. 
 
 Given these preliminary numbers, it's hard to argue that Montana deserves a second House seat, The Constitution created an entire chamber dedicating to protecting an unfair numerical advantage of small states. The Senate bias is bad, and House shouldn't make matters worse.  
 
@@ -340,7 +340,7 @@ The process works like this:
     
     d.  Reduce that state's priority score by calculating its population divided by the geometric mean of n and n+1, where n is the new, higher number of the state's seats
     
-    For the state with the 51st seat, we now use the geometric mean 2 and 3, which is sqrt(2\*3) or sqrt(6), 2.449. Its priority score goes down accordingly.
+    e.  For the state with the 51st seat, we now use the geometric mean 2 and 3, which is sqrt(2\*3) or sqrt(6), 2.449. Its priority score goes down accordingly.
     
     f.  Reorder the priority scores. The 52nd seat goes to the state with the newly determined high priority score. In all likelihood, the next seat goes to a different state that now has 2 seats. This year, the 52nd seat goes to Texas. Just like California, its priority score is  recomputed to a lower value.
     
