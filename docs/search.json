@@ -6,14 +6,22 @@
       "description": "Research and writing from Ian McDonald",
       "author": [],
       "contents": "\n\n\n\n",
+<<<<<<< HEAD
       "last_modified": "2021-04-27T10:25:36-07:00"
+=======
+      "last_modified": "2021-04-26T20:03:09-07:00"
+>>>>>>> b1ec3a851059c129c529a84095eee2ee301cb8fd
     },
     {
       "path": "index.html",
       "title": "Ian McDonald",
       "author": [],
       "contents": "\n\n\n\n",
+<<<<<<< HEAD
       "last_modified": "2021-04-27T10:25:37-07:00"
+=======
+      "last_modified": "2021-04-26T20:03:11-07:00"
+>>>>>>> b1ec3a851059c129c529a84095eee2ee301cb8fd
     }
   ],
   "collections": ["posts/posts.json"]
